@@ -1,4 +1,5 @@
 {
+  "homepage": "https://abhisheksharma1310.github.io/box-office-react-app",
   "name": "box-office",
   "version": "0.1.0",
   "private": true,
@@ -6,6 +7,7 @@
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
     "@testing-library/user-event": "^13.5.0",
+    "gh-pages": "^4.0.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-fade-in": "^2.0.1",
@@ -32,7 +34,9 @@
     "build": "npm run clear && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "clear": "rimraf build"
+    "clear": "rimraf build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
