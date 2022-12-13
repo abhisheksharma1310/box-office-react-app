@@ -54,7 +54,7 @@ This web app save shows for offline view which marked as starred ⭐.
 
 ---
 
-## Web App Installition Instructions
+## Web App Installation Instructions
 
 - Clone box-office-react-app
 
